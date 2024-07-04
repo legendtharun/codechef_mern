@@ -1,0 +1,41 @@
+.react{
+    top:380px
+}
+.node{
+    top: 40px;
+}
+.js{
+    top: 10px;
+}
+.laptopguy{
+    top:150px;
+}
+.laptop{
+    top: 340px;
+    left:460px;
+}
+.signuplink:hover{
+    --tw-text-opacity:1;
+    color:rgb( 96 165 250) ;
+    
+}
+#email,#pass{
+    padding-left: 30px;
+}
+#firstname,#secondname{
+    padding-left: 10px;
+}
+/* html, body, #root {
+    height: 100%
+  } */
+@media screen and (max-width:640px) {
+    .loginbox{
+        width: 100%;
+        
+    }
+    /* .whole{
+        height: 110vh;
+    } */
+    
+    
+}
