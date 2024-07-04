@@ -65,7 +65,7 @@ export default function Loginpage() {
     
     
     if(checking.email_check&&checking.pass_check){
-    const get_response= await fetch("http://localhost:4000/api/user/"+`${values.email_value}`);
+    const get_response= await fetch("https://codechef-mern.onrender.com/api/user/"+`${values.email_value}`);
     if(get_response.ok){
       
       setemail_absent_component(false);

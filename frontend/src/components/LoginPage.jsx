@@ -145,7 +145,7 @@ export default function Loginpage() {
     var email_present;
     const user_data = {"Fullname":name,"email":email_address,"phone":phone,"pass":pass}
     if(checking.email_check){
-    const get_response= await fetch("http://localhost:4000/api/user/"+`${email_address}`);
+    const get_response= await fetch("https://codechef-mern.onrender.com/api/user/"+`${email_address}`);
     if(get_response.ok){
       email_present=true;
       setemail_present_component(true);
